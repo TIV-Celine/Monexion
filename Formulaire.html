@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulaire</title>
+</head>
+<body>
+    <header>
+        <img src="img/Logo Monexion.png" alt="">
+        <nav>
+            <ul id="Menu">
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Product.html">Product</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li><a href="Formulaire.html">S'inscrire</a></li>
+            </ul>
+        </nav>
+    </header><br>
+    <h1>Formulaire</h1>
+    <form>
+        <div>
+            <fieldset>
+            <label for="Nom">Nom <em>*</em></label>
+            <input id="Nom" placeholder="" autofocus="" required=""><br><br>
+            <label for="Prénom">Prénom <em>*</em></label>
+            <input id="Prénom" placeholder="" autofocus="" required=""><br><br>
+            <label for="age">Age<em>*</em></label>
+            <input id="age" type="age" placeholder="" required="" pattern=""><br><br>
+            <label for="sexe">Sexe</label>
+            <select id="sexe"><em>*</em>
+              <option value="F" name="sexe">Femme</option>
+              <option value="H" name="sexe">Homme</option>
+            </select><br><br>
+            <label for="telephone">Portable</label>
+            <input id="telephone" type="tel" placeholder="" pattern=""><br><br>
+            <label for="email">Email <em>*</em></label>
+            <input id="email" type="email" placeholder="" required="" pattern=""><br><br>
+            <label for="pass">Mot de passe</label>
+            <input type="password" id="pass" name="password" minlength="8" required><br><br>
+        </div>
+        <div>
+            <button type="submit">Envoyer</button>
+        </div>
+    </fieldset><br>
+    </form>
+    <script src="js/"></script>
+</body>
+</html>

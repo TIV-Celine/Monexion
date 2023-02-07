@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+
+.ok {
+    border: 5px solid green;
+    background-color: green;
+}
+
+.pasok {
+    border: 5px solid red;
+    background-color: red;
+}
